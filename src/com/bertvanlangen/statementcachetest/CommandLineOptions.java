@@ -2,7 +2,7 @@ package com.bertvanlangen.statementcachetest;
 
 import com.beust.jcommander.Parameter;
 
-class CommandLineOptions {
+public class CommandLineOptions {
     @Parameter(names = "-details", description = "With details")
     public boolean details = false;
 }
